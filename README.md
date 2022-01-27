@@ -81,4 +81,7 @@ Step 4: The sample code below shows the usage of the library with proper data in
 #### Note: jwtSdk is a boolean. Send true to display chart set this parameter as true, otherwise false.
 
 (This is used to control the timing when the chart can be displayed. If user wants to skip chart rendering in any scenario, they can simply set this field as false)
+    
+#### sample project - [mongo-charts-ui](https://github.com/accinnovation/mongo-charts-ui)
+    
 
