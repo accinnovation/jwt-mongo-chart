@@ -1,0 +1,43 @@
+{
+    "name": "jwt-mongo-chart",
+    "version": "1.0.0",
+    "private": false,
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "source": "src/index.js",
+    "dependencies": {
+        "react-scripts": "3.4.3"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "build-watch": "rollup -c -w",
+        "start-playground": "cd playground && npm run start",
+        "i-all": "npm i && cd playground && npm i",
+        "dev": "npm-run-all --parallel build-watch start-playground"
+    },
+    "keywords": [],
+    "author": "DeveshU",
+    "license": "ISC",
+    "peerDependencies": {
+        "@mongodb-js/charts-embed-dom": "^2.1.0",
+        "jsonwebtoken": "^8.5.1",
+        "react": "^16.14.0",
+        "react-dom": "16.14.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.10.5",
+        "@babel/core": "^7.11.4",
+        "@babel/preset-env": "^7.11.0",
+        "@babel/preset-react": "^7.10.4",
+        "@mongodb-js/charts-embed-dom": "^2.1.0",
+        "@rollup/plugin-babel": "^5.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "npm-run-all": "^4.1.5",
+        "rollup": "^2.26.4",
+        "rollup-plugin-delete": "^2.0.0",
+        "rollup-plugin-peer-deps-external": "^2.2.3"
+    },
+    "browser": {
+        "crypto": false
+    }
+}
